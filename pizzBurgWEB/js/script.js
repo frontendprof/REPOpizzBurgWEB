@@ -1,8 +1,22 @@
+
+
+window.addEventListener('load',
+()=>document.querySelector('.preloader').classList.add('hidePreloader'));
+
+
+
+
+
+
+
+
+
+
 $(document).ready(function () {
   //ripples
   $("#header,.info,#special-items").ripples({
     dropRadius: 15,
-    perturbance: 0.001
+    perturbance: 0.009
 
   });
 
