@@ -6,20 +6,7 @@ window.addEventListener('load',
 
 
 
-
-
-
-
-
-
 $(document).ready(function () {
-  //ripples
-  $("#header,.info,#special-items").ripples({
-    dropRadius: 15,
-    perturbance: 0.009
-
-  });
-
 
 
   $('.navbar-toggler').click(function () {

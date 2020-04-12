@@ -390,17 +390,40 @@ body{
 
 
 
-/* ############################################ team section ########################## */
+/* ############################################ quote section ########################## */
 
-.team-icons a{
-    color:#3b5998;
-    transition: all 1s ease-in-out;
-}
 
-.team-icons a:hover{
-    color:#d3325f;
-    transform: translateY(-8px);
-}
+
+
+.customer-card-body{
+    margin-top: -4rem !important;
+  }
+  
+  .customer-img{
+    border:.4rem solid var(--mainBlue);
+  }
+  
+  .customer-name{
+    color:var(--mainYellow);
+    margin:.5rem;
+  }
+
+  .custom-text{
+      color:yellow;
+  }
+
+  .section-title--special{
+      color:rgb(172, 172, 5);
+  }
+  
+  .customer-icon{
+    font-size:2rem;
+    color:var(--mainGrey);
+  }
+  
+  .customer-quote{
+    max-width: 90%;
+  }
 
 
 
